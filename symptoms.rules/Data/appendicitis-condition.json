@@ -1,0 +1,149 @@
+﻿{
+  "name": "Appendicitis",
+  "basePrevalence": 0.086,
+  "testRatios": [
+    {
+      "name": "right lower quadrant pain",
+      "positiveLR": {
+        "value": 7.3,
+        "ciLower": 0,
+        "ciUpper": 0
+      },
+      "negativeLR": {
+        "value": 0.28,
+        "ciLower": 0,
+        "ciUpper": 0 
+      }
+    },
+    {
+      "name": "rigidity",
+      "positiveLR": {
+        "value": 3.8,
+        "ciLower": 0,
+        "ciUpper": 0
+      },
+      "negativeLR": {
+        "value": 0.82,
+        "ciLower": 0,
+        "ciUpper": 0
+      }
+    },
+    {
+      "name": "periumbilical pain",
+      "positiveLR": {
+        "value": 3.2,
+        "ciLower": 0,
+        "ciUpper": 0
+      },
+      "negativeLR": {
+        "value": 0.5,
+        "ciLower": 0,
+        "ciUpper": 0
+      }
+    },
+    {
+      "name": "pain before vomiting",
+      "positiveLR": {
+        "value": 2.8,
+        "ciLower": 0,
+        "ciUpper": 0 
+      },
+      "negativeLR": {
+        "value": 1,
+        "ciLower": 1,
+        "ciUpper": 1 
+      }
+    },
+    {
+      "name": "fever",
+      "positiveLR": {
+        "value": 1.9,
+        "ciLower": 0,
+        "ciUpper": 0 
+      },
+      "negativeLR": {
+        "value": 0.58,
+        "ciLower": 0,
+        "ciUpper": 0
+      }
+    },
+    {
+      "name": "psoas sign",
+      "positiveLR": {
+        "value": 2.4,
+        "ciLower": 0,
+        "ciUpper": 0
+      },
+      "negativeLR": {
+        "value": 0.9,
+        "ciLower": 0,
+        "ciUpper": 0 
+      }
+    },
+    {
+      "name": "guarding",
+      "positiveLR": {
+        "value": 1.7,
+        "ciLower": 0.9,
+        "ciUpper": 1.4
+      },
+      "negativeLR": {
+        "value": 0.89,
+        "ciLower": 0.75,
+        "ciUpper": 1
+      }
+    },
+    {
+      "name": "no similar previous pain",
+      "positiveLR": {
+        "value": 1.5,
+        "ciLower": 0,
+        "ciUpper": 0
+      },
+      "negativeLR": {
+        "value": 0.32,
+        "ciLower": 0,
+        "ciUpper": 0 
+      }
+    },
+    {
+      "name": "rebound tenderness",
+      "positiveLR": {
+        "value": 1.1,
+        "ciLower": 0,
+        "ciUpper": 0
+      },
+      "negativeLR": {
+        "value": 0.86,
+        "ciLower": 0,
+        "ciUpper": 0
+      }
+    },
+    {
+        "name": "anorexia",
+        "positiveLR": {
+            "value": 1.3,
+            "ciLower": 0,
+            "ciUpper": 0
+        },
+        "negativeLR": {
+            "value": 0.64,
+            "ciLower": 0,
+            "ciUpper": 0
+        }
+    },
+    {
+        "name": "vomiting",
+        "positiveLR": {
+            "value": 0.92,
+            "ciLower": 0,
+            "ciUpper": 0
+        },
+        "negativeLR": {
+            "value": 1.1,
+            "ciLower": 0,
+            "ciUpper": 0
+        }
+    }
+  ]
+}

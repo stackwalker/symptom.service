@@ -1,0 +1,136 @@
+{
+  "name": "UTI",
+  "basePrevalence": 0.5,
+  "testRatios": [
+    {
+      "name": "2 or more UTIs in the last year",
+      "positiveLR": {
+        "value": 8,
+        "ciLower": 0.1,
+        "ciUpper": 0.9
+      },
+      "negativeLR": {
+        "value": 0.83,
+        "ciLower": 1,
+        "ciUpper": 1 
+      }
+    },
+    {
+      "name": "dysuria",
+      "positiveLR": {
+        "value": 1.5,
+        "ciLower": 1.1,
+        "ciUpper": 1.6
+      },
+      "negativeLR": {
+        "value": 0.48,
+        "ciLower": 0.12,
+        "ciUpper": 0.67
+      }
+    },
+    {
+      "name": "frequency",
+      "positiveLR": {
+        "value": 1.8,
+        "ciLower": 1.1,
+        "ciUpper": 3.0
+      },
+      "negativeLR": {
+        "value": 0.48,
+        "ciLower": 0.35,
+        "ciUpper": 1
+      }
+    },
+    {
+      "name": "hematuria",
+      "positiveLR": {
+        "value": 2,
+        "ciLower": 1.3,
+        "ciUpper": 2.9
+      },
+      "negativeLR": {
+        "value": 0.92,
+        "ciLower": 0.86,
+        "ciUpper": 0.98
+      }
+    },
+    {
+      "name": "fever",
+      "positiveLR": {
+        "value": 1.6,
+        "ciLower": 1.0,
+        "ciUpper": 2.6
+      },
+      "negativeLR": {
+        "value": 0.9,
+        "ciLower": 0.9,
+        "ciUpper": 1
+      }
+    },
+    {
+      "name": "flank pain",
+      "positiveLR": {
+        "value": 1.6,
+        "ciLower": 0.9,
+        "ciUpper": 1.4
+      },
+      "negativeLR": {
+        "value": 0.84,
+        "ciLower": 0.82,
+        "ciUpper": 1.1
+      }
+    },
+    {
+      "name": "lower abdominal pain",
+      "positiveLR": {
+        "value": 1.1,
+        "ciLower": 0.9,
+        "ciUpper": 1.4
+      },
+      "negativeLR": {
+        "value": 0.89,
+        "ciLower": 0.75,
+        "ciUpper": 1
+      }
+    },
+    {
+      "name": "vaginal discharge",
+      "positiveLR": {
+        "value": 0.34,
+        "ciLower": 0.14,
+        "ciUpper": 0.86
+      },
+      "negativeLR": {
+        "value": 3.1,
+        "ciLower": 1,
+        "ciUpper": 9.3
+      }
+    },
+    {
+      "name": "vaginal irritation",
+      "positiveLR": {
+        "value": 0.24,
+        "ciLower": 0.06,
+        "ciUpper": 0.93
+      },
+      "negativeLR": {
+        "value": 2.7,
+        "ciLower": 0.88,
+        "ciUpper": 9.3
+      }
+    },
+    {
+      "name": "back pain",
+      "positiveLR": {
+        "value": 1.6,
+        "ciLower": 1.2,
+        "ciUpper": 2.1
+      },
+      "negativeLR": {
+        "value": 0.83,
+        "ciLower": 0.74,
+        "ciUpper": 0.94
+      }
+    }
+  ]
+}
